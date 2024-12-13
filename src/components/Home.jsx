@@ -32,7 +32,8 @@ function Home() {
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              setContacts([...contacts, contact]);
+              const newContacts = [...contacts, contact];
+              setContacts(newContacts);
               setContact("");
             }}
           >
@@ -52,7 +53,9 @@ function Home() {
                 <button
                   onClick={() => {
                     setContacts(
-                      contacts.filter((_, i) => {return i !== index})
+                      contacts.filter((_, i) => {
+                        return i !== index;
+                      })
                     );
                   }}
                 >
