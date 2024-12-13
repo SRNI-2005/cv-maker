@@ -1,0 +1,43 @@
+
+.name {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 15px;
+}
+
+.contacts{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+.about p {
+    text-align: center;
+}
+
+.resume h3 {
+    border-bottom: 1px solid;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title1{
+    font-weight: 700;
+}
+
+.exp-content li {
+    max-width: 80%;
+}
