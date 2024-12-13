@@ -1,4 +1,14 @@
+.home{
+    display: flex;
+}
 
+.input-fields{
+    flex: 1;
+}
+
+.resume{
+    flex: 3;
+}
 .name {
     text-align: center;
     border-bottom: 1px solid black;
