@@ -1,53 +1,56 @@
-.home{
-    display: flex;
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.input-fields{
-    flex: 1;
+.home {
+  display: flex;
 }
 
-.resume{
-    flex: 3;
+.input-fields {
+  flex: 1;
+}
+
+.resume {
+  flex: 2;
 }
 .name {
-    text-align: center;
-    border-bottom: 1px solid black;
-    margin: 0;
-    padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 15px;
 }
 
-.contacts{
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
+.contacts {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
 }
 
 .contact {
-    text-align: center;
+  text-align: center;
 }
 
-
 .about p {
-    text-align: center;
+  text-align: center;
 }
 
 .resume h3 {
-    border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
-
-.title{
-    display: flex;
-    justify-content: space-between;
+.title {
+  display: flex;
+  justify-content: space-between;
 }
 
-.title1{
-    font-weight: 700;
+.title1 {
+  font-weight: 700;
 }
 
 .exp-content li {
-    max-width: 80%;
+  width: 90%;
 }
