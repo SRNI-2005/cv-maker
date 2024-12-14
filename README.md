@@ -21,7 +21,7 @@ To get a local copy of the project running, follow these steps:
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Ensure you have these installed on your system:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
